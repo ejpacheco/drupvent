@@ -1,0 +1,20 @@
+uuid: b7e54b02-07a8-4c8c-af26-36a49ed4e267
+langcode: es
+status: true
+dependencies:
+  theme:
+    - drupvent
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: drupvent_primary_admin_actions
+theme: drupvent
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

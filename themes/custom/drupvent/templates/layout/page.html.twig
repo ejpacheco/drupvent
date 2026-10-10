@@ -1,0 +1,50 @@
+{#
+/**
+ * @file
+ * Page layout: header, optional sidebar, footer.
+ *
+ * @see template_preprocess_page()
+ */
+#}
+<div class="page">
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      {{ page.header }}
+      {% if page.primary_menu or page.secondary_menu %}
+        <div class="site-header__nav">
+          {{ page.primary_menu }}
+          {{ page.secondary_menu }}
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <main class="site-main" role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="container">
+      {{ page.breadcrumb }}
+      {{ page.highlighted }}
+      {{ page.content_above }}
+
+      <div class="layout-main{{ page.sidebar ? ' layout-main--with-sidebar' }}">
+        <div class="layout-main__content">
+          {{ page.content }}
+        </div>
+        {% if page.sidebar %}
+          <aside class="layout-main__sidebar" role="complementary">
+            {{ page.sidebar }}
+          </aside>
+        {% endif %}
+      </div>
+    </div>
+  </main>
+
+  {% if page.footer_top or page.footer_bottom %}
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        {{ page.footer_top }}
+        {{ page.footer_bottom }}
+      </div>
+    </footer>
+  {% endif %}
+</div>

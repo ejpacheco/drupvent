@@ -1,0 +1,22 @@
+uuid: 040d9dd2-91a5-48bf-baf8-5b886882fba7
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupvent
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: drupvent_powered
+theme: drupvent
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

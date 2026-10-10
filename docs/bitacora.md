@@ -9,3 +9,5 @@
 - **Cambios hechos desde la interfaz** e incluidos en la exportación: se desinstaló el módulo `announcements_feed` y se borró el vocabulario *Etiquetas* (`tags`), con lo que el rol `content_editor` perdió sus permisos sobre etiquetas.
 - **Diseño de la sección de inventario** con formularios custom en bloques (D5), pendiente de confirmar ([04-inventario.md](04-inventario.md)).
 - **Creada la carpeta `docs/`.**
+- **Tema `drupvent`** creado en `themes/custom/drupvent` (D7). Incluye variables de diseño, preflight, componentes para el marcado de Drupal, unas 1.100 clases utilitarias generadas y plantillas Twig. Se instaló como tema por defecto del sitio público, y los bloques se heredaron de Olivero. Se verificó por HTTP: `/` y `/user/login` responden 200, no hay errores en el log y la CSS agregada incluye los estilos ([05-tema.md](05-tema.md)).
+- **Cambio hecho desde la interfaz** e incluido en la exportación: se creó el tipo de contenido *Página básica* (`node.type.page`).

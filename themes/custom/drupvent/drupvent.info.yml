@@ -1,0 +1,19 @@
+name: Drupvent
+type: theme
+description: 'Tema del sitio con estilos base equivalentes a Tailwind CSS (sin dependencia de Tailwind ni compilación).'
+package: Custom
+core_version_requirement: ^11
+base theme: false
+libraries:
+  - drupvent/global
+regions:
+  header: Cabecera
+  primary_menu: 'Menú principal'
+  secondary_menu: 'Menú secundario'
+  breadcrumb: 'Ruta de navegación'
+  highlighted: Destacado
+  content_above: 'Encima del contenido'
+  content: Contenido
+  sidebar: 'Barra lateral'
+  footer_top: 'Pie superior'
+  footer_bottom: 'Pie inferior'

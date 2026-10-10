@@ -1,0 +1,20 @@
+uuid: 52544cb9-6ca0-46fb-9eb2-1a5906d28d78
+langcode: es
+status: true
+dependencies:
+  theme:
+    - drupvent
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: drupvent_page_title
+theme: drupvent
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

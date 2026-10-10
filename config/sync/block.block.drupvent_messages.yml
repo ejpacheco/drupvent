@@ -1,0 +1,22 @@
+uuid: 20da6e17-c1c5-4b90-8c8a-c816fd7c6768
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupvent
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: drupvent_messages
+theme: drupvent
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

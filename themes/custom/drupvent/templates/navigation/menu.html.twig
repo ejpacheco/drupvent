@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Menu with BEM classes. Only the first level is rendered expanded.
+ */
+#}
+{% import _self as menus %}
+{{ menus.menu_links(items, attributes, 0) }}
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% if items %}
+    <ul{{ attributes.addClass('menu', menu_level > 0 ? 'menu--submenu') }}>
+    {% for item in items %}
+      <li{{ item.attributes.addClass('menu__item', item.in_active_trail ? 'menu__item--active-trail') }}>
+        {{ link(item.title, item.url, {'class': ['menu__link', item.in_active_trail ? 'is-active']}) }}
+        {% if item.below %}
+          {{ _self.menu_links(item.below, create_attribute(), menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}

@@ -8,6 +8,7 @@ Sistema de gestión de ventas, inventario y gastos construido sobre Drupal.
 | [02-decisiones.md](02-decisiones.md) | Registro de las decisiones de arquitectura tomadas y pendientes |
 | [03-productos.md](03-productos.md) | Tipo de contenido Producto y taxonomía de categorías (implementado) |
 | [04-inventario.md](04-inventario.md) | Diseño de la sección de inventario (propuesta, pendiente de confirmar) |
+| [05-tema.md](05-tema.md) | Tema `drupvent`: estilos equivalentes a Tailwind en CSS puro (implementado) |
 | [bitacora.md](bitacora.md) | Historial cronológico de los cambios realizados |
 
 ## Convenciones de esta carpeta

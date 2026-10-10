@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Page title block without the generic wrapper title.
+ */
+#}
+{% if content %}
+  <div{{ attributes }}>
+    {{ title_prefix }}
+    {{ title_suffix }}
+    {{ content }}
+  </div>
+{% endif %}

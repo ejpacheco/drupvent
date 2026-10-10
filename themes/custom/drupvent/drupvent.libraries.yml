@@ -1,0 +1,17 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/base/tokens.css: {}
+      css/base/preflight.css: {}
+      css/base/typography.css: {}
+    layout:
+      css/layout/page.css: {}
+    component:
+      css/components/buttons.css: {}
+      css/components/forms.css: {}
+      css/components/messages.css: {}
+      css/components/navigation.css: {}
+      css/components/tables.css: {}
+    theme:
+      css/utilities/utilities.css: {}

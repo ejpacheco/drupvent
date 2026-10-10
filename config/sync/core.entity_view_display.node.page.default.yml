@@ -1,0 +1,23 @@
+uuid: 45d6833d-b2c9-42d8-a700-5cbe2fede4fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  layout_builder__layout: true
+  links: true

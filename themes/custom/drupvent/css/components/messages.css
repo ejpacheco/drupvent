@@ -1,0 +1,54 @@
+/**
+ * @file
+ * Status messages as Tailwind-style alerts.
+ */
+
+.messages-list > * + * {
+  margin-top: calc(var(--spacing) * 3);
+}
+
+.messages {
+  border-radius: var(--radius-md);
+  border-left: 4px solid;
+  padding: calc(var(--spacing) * 4);
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+.messages ul {
+  list-style: disc;
+  padding-left: calc(var(--spacing) * 5);
+}
+
+.messages ul > li + li {
+  margin-top: calc(var(--spacing) * 1);
+}
+
+.messages a {
+  font-weight: var(--font-medium);
+  text-decoration: underline;
+}
+
+.messages--status {
+  background-color: var(--green-50);
+  border-color: var(--green-400);
+  color: var(--green-800);
+}
+
+.messages--warning {
+  background-color: var(--amber-50);
+  border-color: var(--amber-400);
+  color: var(--amber-800);
+}
+
+.messages--error {
+  background-color: var(--red-50);
+  border-color: var(--red-400);
+  color: var(--red-800);
+}
+
+.messages--info {
+  background-color: var(--blue-50);
+  border-color: var(--blue-400);
+  color: var(--blue-800);
+}

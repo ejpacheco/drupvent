@@ -1,0 +1,22 @@
+uuid: 5e0230ab-13bf-472d-bae2-4e4656860015
+langcode: es
+status: true
+dependencies:
+  theme:
+    - drupvent
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: drupvent_secondary_local_tasks
+theme: drupvent
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

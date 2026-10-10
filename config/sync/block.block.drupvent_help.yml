@@ -1,0 +1,22 @@
+uuid: a4ee20f8-8918-4649-b60c-06c65364436c
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupvent
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: drupvent_help
+theme: drupvent
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

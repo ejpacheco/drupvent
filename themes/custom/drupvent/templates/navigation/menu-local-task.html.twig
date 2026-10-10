@@ -1,0 +1,9 @@
+{#
+/**
+ * @file
+ * A single local task link.
+ */
+#}
+<li{{ attributes.addClass('tabs__item') }}>
+  {{ link|merge({'#attributes': {'class': ['tabs__link', is_active ? 'is-active']}}) }}
+</li>

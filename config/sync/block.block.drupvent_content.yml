@@ -1,0 +1,22 @@
+uuid: 58136591-5f23-485c-9349-ca577579ad72
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupvent
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: drupvent_content
+theme: drupvent
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

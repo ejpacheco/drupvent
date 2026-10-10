@@ -38,6 +38,15 @@ Los usuarios crean y editan productos y registran inventario desde formularios c
 
 Toda variación de existencias se registra como un movimiento de inventario. La existencia de cada producto es la suma de sus movimientos. Un servicio la recalcula dentro de una transacción y con el producto bloqueado, para evitar inconsistencias cuando hay operaciones simultáneas.
 
+### D7. Tema propio con estilos de Tailwind, sin usar Tailwind
+**Fecha:** 2026-10-10 · **Estado:** Aceptada
+
+El tema `drupvent` replica en CSS puro los valores y nombres de clases de Tailwind v3. Es el tema por defecto del sitio público; la administración sigue con Claro.
+
+**Motivo:** tener el lenguaje visual de Tailwind sin depender de Node.js ni de un paso de compilación, y sin tener que purgar clases que se generan dinámicamente en plantillas y en la configuración de Drupal.
+
+**Consecuencia:** solo existe un subconjunto de las clases de Tailwind. Se amplía editando el generador `scripts/generate-utilities.py`. Ver [05-tema.md](05-tema.md).
+
 ## Decisiones pendientes
 
 | # | Pregunta | Recomendación |

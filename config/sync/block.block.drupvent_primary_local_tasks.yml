@@ -1,0 +1,22 @@
+uuid: 4b6c7cbe-f777-4c3d-8589-9ec3d08a941a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - drupvent
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupvent_primary_local_tasks
+theme: drupvent
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
