@@ -1,0 +1,24 @@
+uuid: 90b03046-dff1-4770-98b0-4e237e5f4ec1
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.producto
+_core:
+  default_config_hash: bBvwRtiD75x1p8tT7g8rCkcGe81U2bxWKSBM1ssccnk
+id: node.producto.status
+field_name: status
+entity_type: node
+bundle: producto
+label: Activo
+description: 'Los productos inactivos no se ofrecen para la venta.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activo
+  off_label: Inactivo
+field_type: boolean

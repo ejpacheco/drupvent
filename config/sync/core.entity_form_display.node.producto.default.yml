@@ -1,0 +1,92 @@
+uuid: 5968746e-8c35-4be0-a6f9-e84d1fa2ba4d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.producto.field_categoria_producto
+    - field.field.node.producto.field_controla_inventario
+    - field.field.node.producto.field_costo_referencia
+    - field.field.node.producto.field_descripcion
+    - field.field.node.producto.field_precio_venta
+    - field.field.node.producto.field_stock_minimo
+    - field.field.node.producto.field_unidad_medida
+    - node.type.producto
+  module:
+    - text
+_core:
+  default_config_hash: nIqshzDh7dhkRxnYmqVs6Ur5QQ_GOwiBHgJGLrKQF-k
+id: node.producto.default
+targetEntityType: node
+bundle: producto
+mode: default
+content:
+  field_categoria_producto:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_controla_inventario:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_costo_referencia:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_descripcion:
+    type: text_textarea
+    weight: 9
+    region: content
+    settings:
+      rows: 4
+      placeholder: ''
+    third_party_settings: {  }
+  field_precio_venta:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_stock_minimo:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_unidad_medida:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 20
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

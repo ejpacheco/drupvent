@@ -1,0 +1,24 @@
+uuid: 60a200f8-6cfd-41b4-b12f-c19cb4408876
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.producto
+  module:
+    - text
+_core:
+  default_config_hash: cOZ-ExF_yU33bL6VZ68MYVlIbga5g4SbZwz_G8mmNiU
+id: node.producto.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: producto
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,11 @@
+uuid: 569ae1f4-2014-4aeb-ac6c-bd3fa77b4a77
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: COF7EafOxkajd0qGuqyudp3rk2KW6ck5AAXwuMRUwrY
+name: 'Categoría de producto'
+vid: categoria_producto
+description: 'Clasificación comercial de los productos (panadería, heladería, bebidas, etc.).'
+weight: 0
+new_revision: false

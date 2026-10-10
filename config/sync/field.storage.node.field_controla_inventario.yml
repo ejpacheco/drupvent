@@ -1,0 +1,20 @@
+uuid: 792d84fd-77fc-4f63-bbfb-63fafed1be3e
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: PAn_Or5n23yx18Wkech3AHRKY2KKm5k5h6X1bZaftIE
+id: node.field_controla_inventario
+field_name: field_controla_inventario
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

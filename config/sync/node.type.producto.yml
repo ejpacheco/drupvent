@@ -1,0 +1,19 @@
+uuid: 4cf982d1-c745-4303-9479-99a5261317a8
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: RZWYVaIKStKstPoQQh1r3dDa5-lnNdEP5ZwWkr2pzaw
+name: Producto
+type: producto
+description: 'Productos del catálogo: terminados, de reventa e insumos.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

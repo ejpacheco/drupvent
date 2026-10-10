@@ -1,0 +1,25 @@
+uuid: 87729f3a-4363-4ba3-ba8b-c37817857bdb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_costo_referencia
+    - node.type.producto
+_core:
+  default_config_hash: '-HdMJ3HCSNqYBoaKKfd8Z_OS0Yyl5KA85CyxhH2Yvn8'
+id: node.producto.field_costo_referencia
+field_name: field_costo_referencia
+entity_type: node
+bundle: producto
+label: 'Costo de referencia'
+description: 'Costo unitario estimado. Se usa para calcular el margen cuando el producto no controla inventario.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: '$ '
+  suffix: ''
+field_type: decimal

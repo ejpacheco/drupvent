@@ -1,0 +1,92 @@
+uuid: 739aee7c-ecbd-4d97-98c0-74b4a97dada8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.producto.field_categoria_producto
+    - field.field.node.producto.field_controla_inventario
+    - field.field.node.producto.field_costo_referencia
+    - field.field.node.producto.field_descripcion
+    - field.field.node.producto.field_precio_venta
+    - field.field.node.producto.field_stock_minimo
+    - field.field.node.producto.field_unidad_medida
+    - node.type.producto
+  module:
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: 3S9IV-7gFRId2uPw3VSG7V30vIyDH8ZjOTX10RajEgU
+id: node.producto.default
+targetEntityType: node
+bundle: producto
+mode: default
+content:
+  field_categoria_producto:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_controla_inventario:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_costo_referencia:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: .
+      decimal_separator: ','
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_descripcion:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_precio_venta:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: .
+      decimal_separator: ','
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_stock_minimo:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: .
+      decimal_separator: ','
+      scale: 3
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_unidad_medida:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  links: true

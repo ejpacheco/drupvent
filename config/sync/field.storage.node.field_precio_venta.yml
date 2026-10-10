@@ -1,0 +1,22 @@
+uuid: a642a993-2a80-4835-a17e-7803b55e0df6
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XE4eX9cdICAx3JZyI-M10kz_rHk-_-hGq9PM9I5BItM
+id: node.field_precio_venta
+field_name: field_precio_venta
+entity_type: node
+type: decimal
+settings:
+  precision: 14
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

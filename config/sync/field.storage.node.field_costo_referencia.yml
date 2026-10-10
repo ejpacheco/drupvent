@@ -1,0 +1,22 @@
+uuid: 33e1147d-04d6-488d-b9a5-814a92134479
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: dcGEIsZYPMVe8k4DJ31eubf1JgzysZtAmxvTDCpWIQ8
+id: node.field_costo_referencia
+field_name: field_costo_referencia
+entity_type: node
+type: decimal
+settings:
+  precision: 14
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

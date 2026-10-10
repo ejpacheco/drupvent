@@ -1,0 +1,25 @@
+uuid: c678d945-aa91-4a29-a659-65bb8d02df08
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unidad_medida
+    - node.type.producto
+  module:
+    - options
+_core:
+  default_config_hash: '-DbmrxXc5-ZMEpTw7Z4p_w7J1ufDcPOg9EYYHC5Mxnk'
+id: node.producto.field_unidad_medida
+field_name: field_unidad_medida
+entity_type: node
+bundle: producto
+label: 'Unidad de medida'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: unidad
+default_value_callback: ''
+settings: {  }
+field_type: list_string

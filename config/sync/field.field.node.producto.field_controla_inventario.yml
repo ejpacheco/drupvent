@@ -1,0 +1,25 @@
+uuid: 71a80621-ec2c-48c3-928f-d978519d9f00
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_controla_inventario
+    - node.type.producto
+_core:
+  default_config_hash: brw29m5vC2nm5f5yKJYfcEGLtUyYewC0dKcFpe0MVUs
+id: node.producto.field_controla_inventario
+field_name: field_controla_inventario
+entity_type: node
+bundle: producto
+label: 'Controla inventario'
+description: 'Si está marcado, las ventas descuentan existencias de este producto.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Sí
+  off_label: 'No'
+field_type: boolean

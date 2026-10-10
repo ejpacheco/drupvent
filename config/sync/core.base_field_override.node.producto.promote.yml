@@ -1,0 +1,24 @@
+uuid: 81a753b6-9407-4ad3-b41e-58786a8c735a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.producto
+_core:
+  default_config_hash: JA6tvaFqnOvtTSwbFd3-s7MsIjsNTmoUpWw9xlw-vFo
+id: node.producto.promote
+field_name: promote
+entity_type: node
+bundle: producto
+label: 'Promocionado a la página de inicio'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

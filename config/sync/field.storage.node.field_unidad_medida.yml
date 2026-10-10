@@ -1,0 +1,38 @@
+uuid: bb960391-5752-429f-9db1-0199d3e0301c
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: k06a58nJf4pW_UFyLAkGzj_FLdre7DAW1BM86DKt4gI
+id: node.field_unidad_medida
+field_name: field_unidad_medida
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: unidad
+      label: Unidad
+    -
+      value: kg
+      label: Kilogramo
+    -
+      value: g
+      label: Gramo
+    -
+      value: l
+      label: Litro
+    -
+      value: ml
+      label: Mililitro
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

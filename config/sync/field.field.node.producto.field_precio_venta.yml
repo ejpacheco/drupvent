@@ -1,0 +1,25 @@
+uuid: 5a19dd95-7879-40d1-b3c9-a35a775b2d84
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio_venta
+    - node.type.producto
+_core:
+  default_config_hash: rIgAYyjq-HSV7_zhzvQ2XIdh-5SQxRFBs-joDhj6pWQ
+id: node.producto.field_precio_venta
+field_name: field_precio_venta
+entity_type: node
+bundle: producto
+label: 'Precio de venta'
+description: 'Precio unitario de venta al público.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: '$ '
+  suffix: ''
+field_type: decimal

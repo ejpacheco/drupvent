@@ -1,0 +1,22 @@
+uuid: 615474c5-afdf-43a4-9da6-aec8185e4ed7
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: mRT02seA2eHKWgYJ9_GE1pucFPFI6n6WzCHzXMhScZY
+id: node.field_stock_minimo
+field_name: field_stock_minimo
+entity_type: node
+type: decimal
+settings:
+  precision: 12
+  scale: 3
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
