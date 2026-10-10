@@ -1,0 +1,13 @@
+uuid: 4ecf4844-0efd-47e8-a6a2-2d9718208551
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+id: node_make_unsticky_action
+label: 'Des fijar el contenido'
+type: node
+plugin: node_make_unsticky_action
+configuration: {  }
